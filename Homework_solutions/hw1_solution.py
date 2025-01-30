@@ -1,7 +1,8 @@
 #-----------------------------------------------------------------------------------------------#
 #We don't know what the minimum value itself IS, so all we can do is try to figure out which side of the array it will be on
 #The approach here is to draw out all possible rotations for a toy (small example) input array
-#Split these possibilities into two groups: those where the minimum value falls in the left sub array, and those where it falls in the right. We consider the middle value to be part of the left subarray.
+#Split these possibilities into two groups: those where the minimum value falls in the left sub array, and those where it falls in the right.
+#We consider the middle value to be part of the left subarray.
 #Using the values we DO know (start, end and we can calculate mid), are there any consistent relationships between them in either case?
 #What we'll find is that, in every example case where the minimum falls on the right, array[mid] is greater than array[end]
 #And in every example case where the minimum falls on the left, array[mid] is less than or equal to array[end]

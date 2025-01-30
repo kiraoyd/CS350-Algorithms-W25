@@ -6,7 +6,7 @@ def main():
     # This code brings in elements in the test array,the values for the length of the array, and the value for 'k'
     # Command Line Example:
     #           For the array with 5 elements: [10,2,34,7,10], when k = 4 the command line to enter is:
-    #           python3 main.py 5 4 10 2 34 7 10
+    #           python3 main.py 5 4 10 2 34 7 10:q
     # They are saved in the variables: 'elements' (a Python List), 'num_elements', and 'k',  respectively.
     # You will not need to alter Sasi's code at all
     # Call the function you write, after Sasi's code, and pass  the 'elements', 'num_elements', and 'k' variables

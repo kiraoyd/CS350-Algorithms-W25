@@ -10,10 +10,9 @@ def bfs_matrix(graph, start_node, total_nodes):
 
         neighbor = 0
         while neighbor < total_nodes:
-            if graph[current_nodes][neighbor] == 1 and visited[neighbor] == False:
+            if graph[current_node][neighbor] == 1 and visited[neighbor] == False:
                 queue.append(neighbor)
                 visited[neighbor] = True
             neighbor += 1
 
 
-def bfs_list(graph_list, start_node, total_nodes):
